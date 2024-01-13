@@ -1,0 +1,15 @@
+print"Enter the DNA sequence=";
+$dna=<>;
+$A=($dna=~tr/Aa//);
+$T=($dna=~tr/Tt//);
+$G=($dna=~tr/Gg//);
+$C=($dna=~tr/Cc//);
+$total_count=$A+$T+$G+$C;
+print"Total Length of Sequence=$total_count\n";
+$total_AT=$A+$T;
+$total_GC=$G+$C;
+print"Total AT =$total_AT \n";
+print"Total GC =$total_GC \n";
+$GC_content=($total_GC/$total_count)*100;
+printf"Total GC Content=%.2f%\n",$GC_content;
+exit;

@@ -1,0 +1,5 @@
+$DNA1='ATGCGTCAGATC';
+$DNA2='GCTAATGCACTG';
+$DNA3="$DNA1$DNA2";
+print $DNA3,"\n\n";
+exit;

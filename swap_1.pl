@@ -1,0 +1,10 @@
+$a=25;
+print"Before swapping variable a is $a\n";
+$b=52;
+print"After swapping variable a is $b\n";
+$c=$a;
+$a=$b;
+$b=$c;
+print"After swapping variable a is $a\n";
+print"After swapping variable a is $b\n";
+exit;
